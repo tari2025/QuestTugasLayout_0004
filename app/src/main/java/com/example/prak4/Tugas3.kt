@@ -113,4 +113,17 @@ fun CardSakura() {
         bgColor = colorResource(id = R.color.card_blue)
     )
 }
+
+// ============================================================
+// FUNGSI CARD 4: Sasuke
+// ============================================================
+@Composable
+fun CardSasuke() {
+    ItemCard(
+        imageRes = R.drawable.sasuke,
+        nama = stringResource(id = R.string.nama_4),
+        role = stringResource(id = R.string.role_4),
+        telepon = stringResource(id = R.string.telp_4),
+        bgColor = colorResource(id = R.color.card_green)
+    )
 }
