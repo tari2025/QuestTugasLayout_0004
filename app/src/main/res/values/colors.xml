@@ -1,14 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="card_1">#595656</color>
-    <color name="card_2">#713ACB</color>
-    <color name="card_3">#0000FF</color>
-    <color name="card_4">#006400</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 
-    <color name="putih">#FFFFFF</color>
-    <color name="kuning">#FFEB00</color>
-    <color name="cyan">#00FFFF</color>
-    <color name="biru_muda">#ADD8E6</color>
-    <color name="hitam">#000000</color>
-    <color name="latar">#FAF8FF</color>
+    <color name="card_grey">#616161</color>
+    <color name="card_purple">#7E57C2</color>
+    <color name="card_blue">#2962FF</color>
+    <color name="card_green">#2E7D32</color>
+
+    <color name="text_name">#FFFFFF</color>
+    <color name="text_phone">#00E5FF</color>
+    <color name="text_role">#FFEB3B</color>
 </resources>
