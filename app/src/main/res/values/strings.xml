@@ -1,3 +1,27 @@
+
 <resources>
-    <string name="app_name">Prak4</string>
+    <string name="app_name">Tugas 3 TI</string>
+
+    <string name="judul">Teknologi Informasi</string>
+    <string name="universitas">Universitas Muhammadiyah Yogyakarta</string>
+
+    <string name="nama_1">Deni Lestari</string>
+    <string name="role_1">Mahasiswa</string>
+    <string name="telepon_1"></string>
+    <string name="lokasi_1">Turi, Sleman</string>
+
+    <string name="nama_2">Gibran Fathoni</string>
+    <string name="role_2">Mahasiswa</string>
+    <string name="telepon_2">085436874190</string>
+    <string name="lokasi_2">Kasihan, Bantul</string>
+
+    <string name="nama_3">Zhilal Fadhilah</string>
+    <string name="role_3">Mahasiswa</string>
+    <string name="telepon_3">085436874190</string>
+    <string name="lokasi_3">Depok, Sleman</string>
+
+    <string name="nama_4">Ahmad Alfian</string>
+    <string name="role_4">Mahasiswa</string>
+    <string name="telepon_4">085436874190</string>
+    <string name="lokasi_4">Gamping, Sleman</string>
 </resources>
