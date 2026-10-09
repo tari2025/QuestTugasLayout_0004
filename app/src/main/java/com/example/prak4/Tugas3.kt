@@ -129,4 +129,16 @@ fun CardSasuke() {
 }
 
 // ============================================================
-/
+// WIDGET REUSABLE: ItemCard
+// (Image + Column teks + Image) ada di dalam sini
+// ============================================================
+@Composable
+fun ItemCard(
+    imageRes: Int,
+    nama: String,
+    role: String,
+    telepon: String?,
+    bgColor: Color,
+    isNameItalic: Boolean = false,
+    isNameCursive: Boolean = false
+) {
