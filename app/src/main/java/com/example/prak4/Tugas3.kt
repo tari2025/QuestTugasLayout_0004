@@ -86,4 +86,17 @@ fun CardHokage() {
     )
 }
 
+// ============================================================
+// FUNGSI CARD 2: Naruto
+// ============================================================
+@Composable
+fun CardNaruto() {
+    ItemCard(
+        imageRes = R.drawable.naruto,
+        nama = stringResource(id = R.string.nama_2),
+        role = stringResource(id = R.string.role_2),
+        telepon = stringResource(id = R.string.telp_2),
+        bgColor = colorResource(id = R.color.card_purple)
+    )
 }
+
