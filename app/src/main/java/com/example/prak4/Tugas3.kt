@@ -71,3 +71,19 @@ fun Tugas3() {
     }
 }
 
+// ============================================================
+// FUNGSI CARD 1:
+@Composable
+fun CardHokage() {
+    ItemCard(
+        imageRes = R.drawable.hokage,
+        nama = stringResource(id = R.string.nama_1),
+        role = stringResource(id = R.string.role_1),
+        telepon = null,
+        bgColor = colorResource(id = R.color.card_grey),
+        isNameItalic = true,
+        isNameCursive = true
+    )
+}
+
+}
