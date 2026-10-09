@@ -100,3 +100,17 @@ fun CardNaruto() {
     )
 }
 
+// ============================================================
+// FUNGSI CARD 3: Sakura
+// ============================================================
+@Composable
+fun CardSakura() {
+    ItemCard(
+        imageRes = R.drawable.sakura,
+        nama = stringResource(id = R.string.nama_3),
+        role = stringResource(id = R.string.role_3),
+        telepon = stringResource(id = R.string.telp_3),
+        bgColor = colorResource(id = R.color.card_blue)
+    )
+}
+}
