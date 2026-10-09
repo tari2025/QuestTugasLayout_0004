@@ -203,3 +203,11 @@ fun ItemCard(
         }
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun PreviewTugas3() {
+    MaterialTheme {
+        Tugas3()
+    }
+}
