@@ -164,3 +164,18 @@ fun ItemCard(
                     .clip(RoundedCornerShape(50))
             )
 
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 16.dp)
+            ) {
+                Text(
+                    text = nama,
+                    color = colorResource(id = R.color.text_name),
+                    fontSize = 18.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontStyle = if (isNameItalic) FontStyle.Italic else FontStyle.Normal,
+                    fontFamily = if (isNameCursive) FontFamily.Cursive else FontFamily.Default
+                )
+
+                }
