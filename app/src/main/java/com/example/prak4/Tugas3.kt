@@ -178,4 +178,28 @@ fun ItemCard(
                     fontFamily = if (isNameCursive) FontFamily.Cursive else FontFamily.Default
                 )
 
+                if (telepon != null) {
+                    Text(
+                        text = telepon,
+                        color = colorResource(id = R.color.text_phone),
+                        fontSize = 14.sp
+                    )
                 }
+
+                Text(
+                    text = role,
+                    color = colorResource(id = R.color.text_role),
+                    fontSize = 14.sp
+                )
+            }
+
+            Image(
+                painter = painterResource(id = imageRes),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(64.dp)
+                    .clip(RoundedCornerShape(50))
+            )
+        }
+    }
+}
